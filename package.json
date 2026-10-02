@@ -1,0 +1,31 @@
+{
+  "name": "fronts",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && vite build --mode single",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview",
+    "verify": "node scripts/play.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.6",
+    "playwright-core": "^1.63.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.2",
+    "vite-plugin-singlefile": "^2.3.3",
+    "vitest": "^5.0.3"
+  },
+  "dependencies": {
+    "@fontsource/barlow-condensed": "^5.3.0",
+    "@fontsource/big-shoulders-stencil-display": "^5.3.0",
+    "preact": "^10.29.8"
+  },
+  "private": true,
+  "type": "module"
+}

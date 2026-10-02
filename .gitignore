@@ -1,0 +1,11 @@
+node_modules/
+dist/
+dist-single/
+shots/extra/
+shots/live-*.png
+.wrangler/
+.dev.vars
+.env.local
+.env.*.local
+*.log
+.DS_Store

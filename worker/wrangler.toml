@@ -1,0 +1,12 @@
+name = "fronts-api"
+main = "src/index.ts"
+compatibility_date = "2026-09-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "fronts"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+
+[vars]
+# Comma-separated list of allowed origins for CORS ("*" for any).
+ALLOWED_ORIGINS = "*"
